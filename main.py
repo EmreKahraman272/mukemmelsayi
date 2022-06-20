@@ -8,7 +8,8 @@ def mukemmelsayi(x):
 
     if (x == toplam):
         print(x,"Mükemmel Sayidir.")
-z = int(input("1'den kaça kadar olsun ?"))
-for x in range(1,z):
+z = int(input("kaçtan başlasın?"))
+j = int(input("kaçta bitsin?"))
+for x in range(z , j):
     mukemmelsayi(x)
     x = x + 1
